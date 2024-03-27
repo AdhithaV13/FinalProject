@@ -1,0 +1,26 @@
+<br>
+<br>
+
+<h3 class="title">View All Employees</h3>
+
+<br>
+<br>
+
+<table class="table" id="table">
+    <thead>
+      <tr>
+        <th scope="col" class="box">Employee Name</th>
+        <th scope="col" class="box">Contact Number</th>
+        <th scope="col" class="box">Email Address</th>
+        <th scope="col" class="box">Monthly Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employeeList">
+        <td>{{ employee.employeeName }}</td>
+        <td>{{ employee.contactNumber }}</td>
+        <td>{{ employee.emailAddress }}</td>
+        <td>{{ employee.monthlySalary }}</td>
+      </tr>
+    </tbody>
+  </table>

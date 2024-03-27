@@ -1,0 +1,32 @@
+<br>
+<br>
+
+<h3 class="title">View List Of Payments</h3>
+
+<br>
+<br>
+
+<table class="table" id="table">
+    <thead>
+      <tr>
+        <th scope="col" class="box">Bill Id</th>
+        <th scope="col" class="box">Student Id</th>
+        <th scope="col" class="box">Student Name</th>
+        <th scope="col" class="box">Batch</th>
+        <th scope="col" class="box">Course</th>
+        <th scope="col" class="box">Year Of The Batch</th>
+        <th scope="col" class="box">Value Of The Payment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let payment of paymentList">
+        <td>{{ payment.billId }}</td>
+        <td>{{ payment.studentId }}</td>
+        <td>{{ payment.studentName }}</td>
+        <td>{{ payment.batch }}</td>
+        <td>{{ payment.course }}</td>
+        <td>{{ payment.yearOfTheBatch }}</td>
+        <td>{{ payment.valueOfThePayment }}</td>
+      </tr>
+    </tbody>
+  </table>

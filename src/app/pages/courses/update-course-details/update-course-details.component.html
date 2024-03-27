@@ -1,0 +1,30 @@
+<br>
+<br>
+<br>
+
+<h3 class="title">Update Course Details</h3>
+
+<br>
+<br>
+<br>
+
+<div class="input-group has-validation" id="fullBox">
+    <span class="input-group-text">Enter the course id</span>
+    <input type="text" class="form-control" id="username" placeholder="Ex :- C001" [(ngModel)]="courses.courseId">
+</div>
+
+<br>
+<br>
+
+<div class="subBox">
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Lecturer Name</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Dr.Niroth Samarawikrama" [(ngModel)]="courses.lecturerName">
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<button (click)="btnUpdateClicked()" type="button" class="btn btn-outline-primary" id="updateButton">-- Update --</button>

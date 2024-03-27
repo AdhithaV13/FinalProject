@@ -14,6 +14,14 @@ import { AddACourseComponent } from './pages/courses/add-acourse/add-acourse.com
 import { AddAnEmployeeComponent } from './pages/employee/add-an-employee/add-an-employee.component';
 import { ViewAllBatchesComponent } from './pages/batches/view-all-batches/view-all-batches.component';
 import { AddALecturerComponent } from './pages/lecturers/add-alecturer/add-alecturer.component';
+import { UpdateStudentDetailsComponent } from './pages/students/update-student-details/update-student-details.component';
+import { UpdateCourseDetailsComponent } from './pages/courses/update-course-details/update-course-details.component';
+import { UpdateAnEmployeeComponent } from './pages/employee/update-an-employee/update-an-employee.component';
+import { AboutTheInstituteComponent } from './pages/about-the-institute/about-the-institute.component';
+import { ViewAllStudentsComponent } from './pages/students/view-all-students/view-all-students.component';
+import { ViewListOfPaymentsComponent } from './pages/payments/view-list-of-payments/view-list-of-payments.component';
+import { ViewAllCoursesComponent } from './pages/courses/view-all-courses/view-all-courses.component';
+import { ViewAllEmployeesComponent } from './pages/employee/view-all-employees/view-all-employees.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +34,15 @@ import { AddALecturerComponent } from './pages/lecturers/add-alecturer/add-alect
     AddACourseComponent,
     AddAnEmployeeComponent,
     ViewAllBatchesComponent,
-    AddALecturerComponent
+    AddALecturerComponent,
+    UpdateStudentDetailsComponent,
+    UpdateCourseDetailsComponent,
+    UpdateAnEmployeeComponent,
+    AboutTheInstituteComponent,
+    ViewAllStudentsComponent,
+    ViewListOfPaymentsComponent,
+    ViewAllCoursesComponent,
+    ViewAllEmployeesComponent
   ],
   imports: [
     BrowserModule,
@@ -61,6 +77,38 @@ import { AddALecturerComponent } from './pages/lecturers/add-alecturer/add-alect
       {
         path : 'viewAllBatches',
         component : ViewAllBatchesComponent
+      },
+      {
+        path : 'updateStudentDetails',
+        component : UpdateStudentDetailsComponent
+      },
+      {
+        path : 'updateCourseDetails',
+        component : UpdateCourseDetailsComponent
+      },
+      {
+        path : 'updateAnEmployee',
+        component : UpdateAnEmployeeComponent
+      },
+      {
+        path : 'aboutTheInstitute',
+        component : AboutTheInstituteComponent
+      },
+      {
+        path : 'viewAllStudents',
+        component : ViewAllStudentsComponent
+      },
+      {
+        path : 'viewAllPayments',
+        component : ViewListOfPaymentsComponent
+      },
+      {
+        path : 'viewAllCourses',
+        component : ViewAllCoursesComponent
+      },
+      {
+        path : 'viewAllEmployees',
+        component : ViewAllEmployeesComponent
       }
     ])
   ],

@@ -1,0 +1,36 @@
+<br>
+<br>
+
+<h3 class="title">View All Students</h3>
+
+<br>
+<br>
+
+<table class="table" id="table">
+    <thead>
+      <tr>
+        <th scope="col" class="box">Student Id</th>
+        <th scope="col" class="box">Student Name</th>
+        <th scope="col" class="box">Batch Name</th>
+        <th scope="col" class="box">Course</th>
+        <th scope="col" class="box">Medium</th>
+        <th scope="col" class="box">Email Address</th>
+        <th scope="col" class="box">Contact Number</th>
+        <th scope="col" class="box">Date Of Birth</th>
+        <th scope="col" class="box">Paid Or Not</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of studentList">
+        <td>{{ student.studentId }}</td>
+        <td>{{ student.studentName }}</td>
+        <td>{{ student.batchName }}</td>
+        <td>{{ student.course }}</td>
+        <td>{{ student.medium }}</td>
+        <td>{{ student.emailAddress }}</td>
+        <td>{{ student.contactNumber }}</td>
+        <td>{{ student.dateOfBirth }}</td>
+        <td>{{ student.paidOrNot }}</td>
+      </tr>
+    </tbody>
+  </table>

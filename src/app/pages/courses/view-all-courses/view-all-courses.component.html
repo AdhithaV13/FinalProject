@@ -1,0 +1,26 @@
+<br>
+<br>
+
+<h3 class="title">View All Courses</h3>
+
+<br>
+<br>
+
+<table class="table" id="table">
+    <thead>
+      <tr>
+        <th scope="col" class="box">Course Id</th>
+        <th scope="col" class="box">Course Name</th>
+        <th scope="col" class="box">Period Of The Course</th>
+        <th scope="col" class="box">Lecturer Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let course of courseList">
+        <td>{{ course.courseId }}</td>
+        <td>{{ course.courseName }}</td>
+        <td>{{ course.periodOfTheCourse }}</td>
+        <td>{{ course.lecturerName }}</td>
+      </tr>
+    </tbody>
+  </table>

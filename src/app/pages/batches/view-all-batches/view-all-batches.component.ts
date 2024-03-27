@@ -22,7 +22,6 @@ export class ViewAllBatchesComponent implements OnInit{
     this.http.get("http://localhost:8080/showAllBatches")
       .subscribe(data => {
         this.batchList = data;
-        console.log(this.batchList);
       })
   }
 }

@@ -1,0 +1,21 @@
+.title{
+    margin-left: 500px;
+    font-family: "Signika", sans-serif;
+}
+
+.box{
+    width: 1000px;
+    margin-left: 100px;
+}
+
+.pharagraph{
+    font-weight: 500;
+    font-size: larger;
+}
+
+.image{
+    height: 400px;
+    width: 1000px;
+    margin-left: 120px;
+    border-radius: 15px;
+}

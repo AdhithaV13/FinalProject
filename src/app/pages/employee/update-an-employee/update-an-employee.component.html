@@ -1,0 +1,38 @@
+<br>
+<br>
+<br>
+
+<h3 class="title">Update Employee Details</h3>
+
+<br>
+<br>
+<br>
+
+<div class="input-group has-validation" id="fullBox">
+    <span class="input-group-text">Enter the employee name</span>
+    <input type="text" class="form-control" id="username" placeholder="Ex :- Adhitha Vithanage" [(ngModel)]="employees.employeeName">
+</div>
+
+<br>
+<br>
+
+<div class="subBox">
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Contact Number</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 0714230846" [(ngModel)]="employees.contactNumber">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Email Address</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- adhithavichak@gmail.com" [(ngModel)]="employees.emailAddress">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Monthly Salary</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 20000/=" [(ngModel)]="employees.monthlySalary">
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<button (click)="btnUpdateClicked()" type="button" class="btn btn-outline-primary" id="updateButton">-- Update --</button>

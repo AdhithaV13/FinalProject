@@ -7,8 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './add-alecturer.component.css'
 })
 export class AddALecturerComponent {
-  public selectedFile;
-
   private http;
 
   public lecturers = {

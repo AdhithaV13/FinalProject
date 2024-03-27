@@ -8,7 +8,7 @@
         <a class="navbar-brand col-lg-3 me-0">LASE Institute Management System</a>
         <ul class="navbar-nav col-lg-6 justify-content-lg-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" routerLink="aboutTheInstitute">About The Institute</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,8 +27,8 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" routerLink="addAStudent">Add a student</a></li>
-              <li><a class="dropdown-item" href="#">View all students</a></li>
-              <li><a class="dropdown-item" href="#">Update student details</a></li>
+              <li><a class="dropdown-item" routerLink="viewAllStudents">View all students</a></li>
+              <li><a class="dropdown-item" routerLink="updateStudentDetails">Update student details</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -47,7 +47,7 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" routerLink="addAPayment">Add a payment</a></li>
-              <li><a class="dropdown-item" href="#">View list of payments</a></li>
+              <li><a class="dropdown-item" routerLink="viewAllPayments">View list of payments</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -56,8 +56,8 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" routerLink="addACourse">Add a course</a></li>
-              <li><a class="dropdown-item" href="#">View all courses</a></li>
-              <li><a class="dropdown-item" href="#">Update course details</a></li>
+              <li><a class="dropdown-item" routerLink="viewAllCourses">View all courses</a></li>
+              <li><a class="dropdown-item" routerLink="updateCourseDetails">Update course details</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -66,14 +66,11 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" routerLink="addAnEmployee">Add an employee</a></li>
-              <li><a class="dropdown-item" href="#">View all employees</a></li>
-              <li><a class="dropdown-item" href="#">Update employee details</a></li>
+              <li><a class="dropdown-item" routerLink="viewAllEmployees">View all employees</a></li>
+              <li><a class="dropdown-item" routerLink="updateAnEmployee">Update employee details</a></li>
             </ul>
           </li>
         </ul>
-        <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-          <button class="btn btn-danger">Sign out</button>
-        </div>
       </div>
     </div>
   </nav>

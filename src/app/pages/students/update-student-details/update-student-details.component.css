@@ -1,0 +1,28 @@
+.title{
+    margin-left: 500px;
+    font-family: "Signika", sans-serif;
+}
+
+#fullBox{
+    width: 500px;
+    margin-left: 40px;
+}
+
+#box{
+    width: 150px;
+}
+
+.subBox{
+    margin-left: 150px;
+    width: 1000px;
+}
+
+#box2{
+    margin-top: 10px;
+}
+
+#updateButton{
+    border-width: 2px;
+    font-weight: 500;
+    margin-left: 570px;
+}
