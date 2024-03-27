@@ -1,0 +1,23 @@
+.title{
+    margin-left: 550px;
+    font-family: "Signika", sans-serif;
+}
+
+#box{
+    width: 150px;
+}
+
+.subBox{
+    margin-left: 30px;
+    width: 1160px;
+}
+
+#box2{
+    margin-top: 10px;
+}
+
+#addButton{
+    border-width: 2px;
+    font-weight: 500;
+    margin-left: 570px;
+}

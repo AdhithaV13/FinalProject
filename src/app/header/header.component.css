@@ -1,0 +1,15 @@
+#navbar{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 30px;
+    width: 1500px;
+}
+
+.workingArea{
+    height: 600px;
+    width: 1220px;
+    margin-top: 20px;
+    margin-left: 300px;
+    background-color: rgb(237, 236, 242);
+    border-radius: 50px;
+}

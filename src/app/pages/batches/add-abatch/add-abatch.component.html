@@ -1,0 +1,37 @@
+<br>
+<br>
+<br>
+
+<h3 class="title">Add A Batch</h3>
+
+<br>
+<br>
+
+<div class="subBox">
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Batch Name</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- iCM102" [(ngModel)]="batches.batchName">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Year</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 2024" [(ngModel)]="batches.year">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Course</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Java Course" [(ngModel)]="batches.course">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Medium</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Online" [(ngModel)]="batches.medium">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Limit Of Student</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 150" [(ngModel)]="batches.limitOfStudent">
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<button (click)="btnAddClicked()" type="button" class="btn btn-outline-primary" id="addButton">-- Add --</button>

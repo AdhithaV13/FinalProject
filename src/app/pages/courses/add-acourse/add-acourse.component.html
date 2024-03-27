@@ -1,0 +1,34 @@
+<br>
+<br>
+<br>
+
+<h3 class="title">Add A Course</h3>
+
+<br>
+<br>
+<br>
+
+<div class="subBox">
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Course Id</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- C001" [(ngModel)]="courses.courseId">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Course Name</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Python" [(ngModel)]="courses.courseName">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Period Of The Course</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 1 year" [(ngModel)]="courses.periodOfTheCourse">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Lecturer Name</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Dr.Niroth Samarawikrama" [(ngModel)]="courses.lecturerName">
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<button (click)="btnAddClicked()" type="button" class="btn btn-outline-primary" id="addButton">-- Add --</button>

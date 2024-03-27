@@ -1,0 +1,43 @@
+<br>
+<br>
+
+<h3 class="title">Add A Payment</h3>
+
+<br>
+<br>
+
+<div class="subBox">
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Bill Id</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- B001" [(ngModel)]="payments.billId">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Student Id</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- S001" [(ngModel)]="payments.studentId">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Student Name</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Adhitha Vithanage" [(ngModel)]="payments.studentName">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Batch</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- iCM102" [(ngModel)]="payments.batch">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Course</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- JavaFX" [(ngModel)]="payments.course">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Year Of The Batch</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 2024" [(ngModel)]="payments.yearOfTheBatch">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Value Of Payment</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 70000/=" [(ngModel)]="payments.valueOfPayment">
+    </div>
+</div>
+
+<br>
+<br>
+
+<button (click)="btnAddClicked()" type="button" class="btn btn-outline-primary" id="addButton">-- Add --</button>

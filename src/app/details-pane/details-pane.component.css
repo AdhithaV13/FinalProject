@@ -1,0 +1,67 @@
+.detailedPane{
+    margin-top: -630px;
+    margin-left: 20px;
+    height: 625px;
+    width: 250px;
+    background-color: rgb(237, 236, 242);
+    border-radius: 50px;
+}
+
+.image1{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.font{
+    color: rgb(0, 0, 0);
+    font-family: "Outfit", sans-serif;
+}
+
+.inDetailedPane{
+    width: 200px;
+    margin-left: 25px;
+}
+
+#fontOne{
+    margin-left: 55px;
+    font-weight: 700;
+}
+
+#fontTwo{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#fontSix{
+    margin-left: 20px;
+}
+
+#fontThree{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#fontFour{
+    margin-left: 47px;
+}
+
+#fontFive{
+    margin-left: 28px;
+}
+
+#fontSeven{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#fontEight{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#fontNine{
+    margin-left: 35px;
+}

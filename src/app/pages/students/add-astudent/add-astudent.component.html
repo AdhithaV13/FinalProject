@@ -1,0 +1,48 @@
+<br>
+
+<h3 class="title">Add A Student</h3>
+
+<br>
+
+<div class="subBox">
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Student Id</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- S001" [(ngModel)]="students.studentId">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Full Name</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Adhitha Vithanage" [(ngModel)]="students.studentName">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Batch Name</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- iCM102" [(ngModel)]="students.batchName">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Course</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- JavaFX" [(ngModel)]="students.course">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Medium</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Online" [(ngModel)]="students.medium">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Email Address</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- adhithavichak@gmail.com" [(ngModel)]="students.emailAddress">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Contact Number</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 0714230846" [(ngModel)]="students.contactNumber">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Date Of Birth</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- 2009-08-19" [(ngModel)]="students.dateOfBirth">
+    </div>
+    <div class="input-group has-validation" id="box2">
+        <span class="input-group-text" id="box">Payed Or Not</span>
+        <input type="text" class="form-control" id="username" placeholder="Ex :- Payed" [(ngModel)]="students.payedOrNot">
+    </div>
+</div>
+
+<br>
+
+<button (click)="btnAddClicked()" type="button" class="btn btn-outline-primary" id="addButton">-- Add --</button>
